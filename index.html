@@ -1,12 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+    <base href="https://moi.edu.ru/" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная_v2</title>
     
-</body>
-</html>
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.synergy.ru/libs/bootstrap/bootstrap-4.5.2.min.css">
+    <link rel="stylesheet" href="https://cdn.synergy.ru/libs/fancybox/jquery.fancybox-3.5.7.min.css" />
+    <link rel="stylesheet" href="https://cdn.synergy.ru/libs/swiper/swiper-5.4.5.min.css" />
+    
+    <link rel="shortcut icon" type="image/png" href="assets/template/images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/template/images/favicon.ico" />
+    
+    <link href="assets/template/v2/css/PTSans/stylesheet.css" rel="stylesheet">
+
+    <!--<link rel="stylesheet" href="assets/template/v2/bvi/bvi.min.css">-->
+    <link rel="stylesheet" href="assets/template/stylesheets/bvi.min.css?ver=1309" type="text/css" />
+    
+    <link rel="stylesheet" href="assets/template/v2/css/styles.css">
+    <link rel="stylesheet" href="assets/template/v2/css/responsive.css">
+    
+    <meta name="yandex-verification" content="06aded32ac8b2ea3" />
+    <meta name="facebook-domain-verification" content="cna2yokd0m291h0sfp21q0v42m8prp" />
+    
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+        var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+        j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+        f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-N5XRLZ');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+    <body class="no-gtm">
+        <div class="wrapper">
+            <header class="header">
+    <div class="header__top">
+        <div class="container">
+            <div class="header__top-navbar">
+                
+                <ul class="menu">
+    <li><a href="sveden">Сведения об образовательной огранизации</a></li>
+    <li><a href="abitur">абитуриенту</a></li>
+    <li><a href="ob-institute/novosti/">новости</a></li>
+    <li><a href="ob-institute/vopros-otvet-(faq)/">faq</a></li>
+    <li><a href="mailto:pk@moi.edu.ru">обратная связь</a></li>
+    <li><a href="ob-institute/kontaktyi/">контакты</a></li>
+</ul>
+                
+                <div class="options">
+                    <a href="#" class="header__top-version bvi-panel-open header__eye"> 
+                        <div class="icon">
+                            <svg width="32" height="18" viewBox="0 0 32 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 0C4.88604 0 0.299733 8.217 0.109867 8.56656C-0.0366222 8.83656 -0.0366222 9.16344 0.109867 9.43308C0.299733 9.783 4.88604 18 16 18C27.114 18 31.7003 9.783 31.8901 9.43344C32.0366 9.16344 32.0366 8.83656 31.8901 8.56692C31.7003 8.217 27.114 0 16 0ZM16 16.2C7.25938 16.2 2.99876 10.6402 1.93458 9.00432C3.00196 7.39296 7.33369 1.8 16 1.8C24.7388 1.8 28.9998 7.35768 30.0654 8.99604C28.9973 10.6078 24.6656 16.2 16 16.2Z"
+                                      fill="#4F4F4F"/>
+                                <path d="M15.9993 3.6001C13.0585 3.6001 10.666 6.02254 10.666 9.0001C10.666 11.9777 13.0585 14.4001 15.9993 14.4001C18.9401 14.4001 21.3327 11.9777 21.3327 9.0001C21.3327 6.02254 18.9401 3.6001 15.9993 3.6001ZM15.9993 12.6001C14.0388 12.6001 12.4438 10.9851 12.4438 9.0001C12.4438 7.01506 14.0388 5.4001 15.9993 5.4001C17.9599 5.4001 19.5549 7.01506 19.5549 9.0001C19.5549 10.9851 17.9599 12.6001 15.9993 12.6001Z"
+                                      fill="#4F4F4F"/>
+                            </svg>
+                        </div>
+                        <p class="text">
+                            Версия для слабовидящих
+                        </p>
+                    </a>
+                    <div class="menu-li"></div>
+                    <a href="https://lms.moi.edu.ru/" target="_blank" class="header__top-lk_cabinet">
+                        <div class="icon">
+                            <svg width="21" height="18" viewBox="0 0 21 18" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M10.5001 12.9789C14.1041 12.9789 17.0257 10.0735 17.0257 6.48945C17.0257 2.90543 14.1041 0 10.5001 0C6.89619 0 3.97461 2.90543 3.97461 6.48945C3.97461 10.0735 6.89619 12.9789 10.5001 12.9789ZM10.4382 11.8158C13.4415 11.8158 15.8761 9.39456 15.8761 6.40788C15.8761 3.42119 13.4415 1 10.4382 1C7.4349 1 5.00024 3.42119 5.00024 6.40788C5.00024 9.39456 7.4349 11.8158 10.4382 11.8158Z"
+                                      fill="#4F4F4F"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M21 18.0001C18.1625 16.8916 14.4993 16.2237 10.5 16.2237C6.50068 16.2237 2.83748 16.8916 0 18.0001C2.03169 15.6524 5.97208 14.0605 10.5 14.0605C15.0279 14.0605 18.9683 15.6524 21 18.0001Z"
+                                      fill="#4F4F4F"/>
+                            </svg>
+                        </div>
+                        <p class="text">
+                            Войти в личный кабинет
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header__middle">
+        <div class="container">
+            <div class="header__middle-navbar">
+                <div class="header__middle-logo">
+                    <a href="/"><img src="assets/template/v2/img/header/logo.svg" alt=""></a>
+                </div>
+                <div class="header__middle-time">
+                    <p class="text">Пн – Пт: с 10:00 до 19:00</p>
+                </div>
+                <div class="header__middle-phones">
+                    <div class="header__middle-phones_card">
+                        <a href="tel:+74952252335"><span class="phone">+7 (495) 225-23-35</span></a>
+                        <a href="" class="phone_order">Заказать звонок</a>
+                    </div>
+                    <div class="header__middle-phones_card">
+                        <a href="tel:88001008595"><span class="phone">8 (800) 100-85-95</span></a>
+                        <p class="phone_text">Звонок бесплатный</p>
+                    </div>
+                </div>
+                <div class="header__middle-search">
+                    
+                    <form action="poisk" method="get">
+    <input type="text" placeholder="Поиск" class="search_input" name="search" value="" id="search">
+    <input type="hidden" name="id" value="6" />
+    
+    <button class="icon_search" type="submit">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8.40495 16.8099C13.0469 16.8099 16.8099 13.0469 16.8099 8.40495C16.8099 3.76302 13.0469 0 8.40495 0C3.76302 0 0 3.76302 0 8.40495C0 13.0469 3.76302 16.8099 8.40495 16.8099ZM8.40495 15.6092C12.3837 15.6092 15.6092 12.3837 15.6092 8.40495C15.6092 4.42616 12.3837 1.20071 8.40495 1.20071C4.42616 1.20071 1.20071 4.42616 1.20071 8.40495C1.20071 12.3837 4.42616 15.6092 8.40495 15.6092Z"
+                  fill="#4F4F4F"/>
+            <rect x="13.207" y="14.0566" width="1.20071" height="8.40495" rx="0.600353"
+                  transform="rotate(-45 13.207 14.0566)" fill="#4F4F4F"/>
+        </svg>
+    </button>
+</form>
+                    
+                </div>
+                <a href="#popup_order" data-fancybox data-options='{"touch" : false}' class="header__middle-link">
+                    <p>поступить</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header__bottom">
+        <div class="container">
+            <div class="header__bottom-navbar">
+                
+                <ul class="menu">
+    <li>
+        <svg class="bignav-submit" id="burger-menu-img" width="30" height="14" viewBox="0 0 30 14"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+            <rect width="30" height="2" rx="1" fill="black"/>
+            <rect y="12" width="30" height="2" rx="1" fill="black"/>
+        </svg>
+        <svg display="none" class="bignav-submit" id="cross-bignav-close" width="20" height="19"
+             viewBox="0 0 24 23" fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+            <rect width="30.0929" height="2.00619" rx="1.0031"
+                  transform="matrix(0.703372 0.710822 -0.703372 0.710822 1.41016 0.179688)"
+                  fill="black"/>
+            <rect width="30.0926" height="2.00617" rx="1.00309"
+                  transform="matrix(0.703711 -0.710487 0.703711 0.710487 0.416016 21.3828)"
+                  fill="black"/>
+        </svg>
+    </li>
+    
+    <li><a href="ob-institute/">О нас</a></li>
+<li>
+    <div class="menu-li"></div>
+</li>
+<li><a href="abitur/">Поступающему</a></li>
+<li>
+    <div class="menu-li"></div>
+</li>
+<li><a href="abitur/urovni-obrazovaniya/pervoe-vyisshee">Высшее образование</a></li>
+<li>
+    <div class="menu-li"></div>
+</li>
+<li><a href="college/">Колледж</a></li>
+<li>
+    <div class="menu-li"></div>
+</li>
+<li><a href="napravleniya-i-speczialnosti/">Направления и специальности</a></li>
+<li>
+    <div class="menu-li"></div>
+</li>
+<li><a href="abitur/urovni-obrazovaniya/vtoroe-vyisshee">Два диплома</a></li>
+<li>
+    <div class="menu-li"></div>
+</li>
+<li><a href="">ДПО</a></li>
+<li>
+    <div class="menu-li"></div>
+</li>
+<li><a href="abitur/urovni-obrazovaniya/perevod-iz-drugix-vuzov">Перевод и восстановление</a></li>
+    
+</ul>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="header__mobile">
+        <div class="container">
+            <div class="header__mobile-navbar">
+                <div class="header__mobile-logo-cabinet">
+                    <svg id="cabinet-icon" width="21" height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M10.5001 12.9789C14.1041 12.9789 17.0257 10.0735 17.0257 6.48945C17.0257 2.90543 14.1041 0 10.5001 0C6.89619 0 3.97461 2.90543 3.97461 6.48945C3.97461 10.0735 6.89619 12.9789 10.5001 12.9789ZM10.4382 11.8158C13.4415 11.8158 15.8761 9.39456 15.8761 6.40788C15.8761 3.42119 13.4415 1 10.4382 1C7.4349 1 5.00024 3.42119 5.00024 6.40788C5.00024 9.39456 7.4349 11.8158 10.4382 11.8158Z"
+                              fill="#4F4F4F"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M21 18.0001C18.1625 16.8916 14.4993 16.2237 10.5 16.2237C6.50068 16.2237 2.83748 16.8916 0 18.0001C2.03169 15.6524 5.97208 14.0605 10.5 14.0605C15.0279 14.0605 18.9683 15.6524 21 18.0001Z"
+                              fill="#4F4F4F"/>
+                    </svg>
+                    <svg class="cabinet-submit" id="search-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                        <path d="M15.853 16.56c-1.683 1.517-3.911 2.44-6.353 2.44-5.243 0-9.5-4.257-9.5-9.5s4.257-9.5 9.5-9.5 9.5 4.257 9.5 9.5c0 2.442-.923 4.67-2.44 6.353l7.44 7.44-.707.707-7.44-7.44zm-6.353-15.56c4.691 0 8.5 3.809 8.5 8.5s-3.809 8.5-8.5 8.5-8.5-3.809-8.5-8.5 3.809-8.5 8.5-8.5z"/>
+                    </svg>
+                </div>
+                <div class="header__mobile-logo">
+                    <a href="/">
+                        <svg width="22" height="33" viewBox="0 0 22 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.2696 21.072V13.3074H12.8557L12.5153 10.0029C17.2152 10.7258 20.8086 14.7805 20.8086 19.5143C20.8086 21.989 19.8464 24.3378 18.1388 26.1163V19.8418L14.2696 21.072ZM16.949 30.5794H16.3948V22.2259L11.0011 24.0619L5.60691 22.2259V30.5794H5.05169V21.4479L8.91962 22.6794V14.4765H10.2172L10.9997 6.92389L11.781 14.4765H13.0789V22.6794L16.949 21.4479V30.5794ZM15.204 31.6371L11.5945 31.0906V25.0969L15.204 23.8684V31.6371ZM10.4033 31.0916L6.79665 31.6371V23.8684L10.4033 25.0953V31.0916ZM1.18988 19.5143C1.18988 14.7629 4.77485 10.7229 9.48388 10.0029L9.14351 13.3074H7.72744V21.072L3.86104 19.8418V26.1146C2.15204 24.3397 1.18988 22.0017 1.18988 19.5143ZM22 19.5143C22 14.105 17.8115 9.48025 12.3898 8.80356L11.7574 2.68842L12.7602 1.71276L10.9997 0L9.24085 1.71245L10.2405 2.68707L9.60785 8.80356C4.17829 9.4786 0 14.0825 0 19.5143C0 22.7 1.40399 25.6678 3.86104 27.7244V31.7487H5.60691V33L11.0011 32.1853L16.3948 33V31.7487H18.1388V27.726C20.5915 25.6687 22 22.684 22 19.5143Z"
+                                  fill="#FF5136"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__mobile-menu">
+                    <svg class="mobnav-submit" id="burger-menu-img-mob" width="30" height="14" viewBox="0 0 30 14"
+                         fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30" height="2" rx="1" fill="#303030"/>
+                        <rect y="12" width="30" height="2" rx="1" fill="#303030"/>
+                    </svg>
+                    <svg display="none" class="mobnav-submit" id="cross-mobnav-close" width="24" height="23"
+                         viewBox="0 0 24 23" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <rect width="30.0929" height="2.00619" rx="1.0031"
+                              transform="matrix(0.703372 0.710822 -0.703372 0.710822 1.41016 0.179688)" fill="black"/>
+                        <rect width="30.0926" height="2.00617" rx="1.00309"
+                              transform="matrix(0.703711 -0.710487 0.703711 0.710487 0.416016 21.3828)" fill="black"/>
+                    </svg>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</header>
